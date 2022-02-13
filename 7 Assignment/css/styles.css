@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#body1{
+    background-color: lightgray;
+    height: 150px;
+    width: 2500px;
+   
+
+}
+
+#logo{
+    left: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.top{
+    left: 1050px;
+    position: relative;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+#cover{
+    height: 800px;
+    width: 2500px;
+    margin: 0;
+    padding: 0;
+}
+#body3{
+    background-color: lightgray;
+   
+}
+
+#three{
+    margin-left: 1300px;
+    margin-top: 50px;
+    
+}
+
+#body3{
+    margin-top: 0;
+    padding: 0;
+    height: 500px;
+    width: 2500px;
+
+}
+
+#h1{
+margin-top: 0px;
+margin-left: 200px;
+ color: slategray;
+ font-style: italic;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#h2{
+    margin-left: 200px;
+    color: rgb(141, 22, 42);
+}
+
+#para1{
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.action{
+    padding-left: 300px;
+    padding-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: left;
+    color: white;
+    font-size: 50px;
+}
+
+#body4{
+    background-color: greenyellow;
+    height: 300px;
+    width: 2500px;
+}
+
+#body5{
+    background-color: rgb(230, 22, 56);
+    height: 500px;
+    width: 2500px;
+}

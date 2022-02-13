@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------header-------*/
+.header{
+    background: linear-gradient(to bottom right, #2196f3, #009688);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/*------Menu-------*/
+.menu{
+    background-color: yellow;
+    height: 50px;
+    width: 100%;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    
+}
+.menu ul li a{
+    color: gray;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 50px 0 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*------Services-------*/
+.services{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+}
+.row{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.col-3{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.col-3 img{
+    width: 50%;
+    max-width: 100%;
+}
+.services::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*------About-------*/
+.AboutUs{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(./Images/about.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.para2{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: white;
+}
+.btn{
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid white;
+    cursor: pointer;
+}
+
+.team{
+    padding: 30px;
+    text-align: center;  
+}
+
+/*-----------contact--------*/
+
+.contact .row{
+    width: 100%;
+}
+
+.contact .row .col-3{
+    background-color: yellow;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.coninfo{
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center; 
+}
+.coninfo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cta-col1{
+    width: 35%;
+    float: left;
+    margin-top: 40px;
+    padding: 30px 5px 30px 5px;
+}
+.cta-col2{
+    width: 65%;
+    float: left;
+    padding: 30px 5px 30px 5px;
+    float: left;
+}
+.tn{
+    padding: 15px;
+    margin-top: 20px;
+    color: blawck;
+    background-color: yellow;
+    outline: 1px solid black
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding-top: 60px;
+    border-top: white;
+}
+
+
+

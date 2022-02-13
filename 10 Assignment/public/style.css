@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.header{
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+}
+
+.Name h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+.Name p{
+    color: wheat;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.summary{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+h4{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+}
+.Experince{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+ul{
+    padding-left: 40px;
+    font-size: 20px;
+    list-style-type: decimal;
+}
+h5{
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+h6{
+    font-size: 20px;
+}
+.PeronalInfor{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.PeronalInfor p{
+    margin-top: 10px;
+    
+}
+.ref{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}

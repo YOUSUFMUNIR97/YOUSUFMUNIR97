@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url(./Barber_Shop_img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 120px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto;
+
+}
+.banner-btn button{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: .5px solid white;
+    background-color: transparent;
+}
+.banner-btn button:hover{
+    background-color: white;
+    color: black;  
+    font-weight: bold;
+}
+.features{
+    text-align: center;
+    padding: 60px;
+}
+.title-text p{
+    font-weight: bold;
+    color: #009688;
+    font-size: 25px;
+}
+.title-text h1{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.features-box{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+.feat{
+    flex: 50%;
+}
+.feat-image{
+    flex: 50%;
+}
+.feat-image img{
+    width: auto;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.feat h1{
+    font-style: italic;
+    text-align: left;
+    color: #009688;
+    margin-bottom: 10px;
+}
+.feat-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.fea-text p{
+    text-align: initial;
+    padding: 0 0px;
+    font-weight: bold;
+     
+}
+.services{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    background-color: #efefef;
+}
+.servicesection{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.singleservice{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    margin-top: 40px;
+}
+.singleservice img{
+    width: 100%;
+    border-radius: 7px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5), #009688);
+    opacity: 0;
+    transition: 1s;
+}
+.singleservice:hover .overlay{
+    opacity: 1;
+}
+.servicedes{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+}
+.singleservice:hover .servicedes{
+    opacity: 1;
+}
+.servicedes hr{
+    width: 60%;
+    background: #fff;
+    margin: 15px auto;
+}
+.testimonial{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+.testimonial-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.testdes{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px 3px #00968814;
+    transition: transform .5s;
+}
+.testdes p{
+    font-weight: bold;
+}
+.testdes:hover{
+    transform: translateY(-5px);
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.userinfo img{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.userinfo h3{
+    color: #009688;
+}
+.testdes{
+    text-align: left;
+}
+.footer{
+    background-color: #efefef;
+    height: 400px;
+    width: 100%;
+}
+.footer .title-text{
+    text-align: center;
+}
+.footerrow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.col-left, .col-right{
+    width: 35%;
+    text-align: center;
+}
+.col-left p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.col-right p{
+    margin-top: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+.col-left h1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.col-right h1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.col-center{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.col-center img{
+    height: 200px;
+    
+}
+.col-center h1{
+    text-align: center;
+    color: #009688;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    line-height: 0.5;
+    margin-right: 5px;
+}
